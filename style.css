@@ -1,0 +1,147 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+section {
+    height: 700px;
+    padding: 70px 0;
+}
+h2 {
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 25px;
+    padding-top: 26%;
+}
+h1 {
+    font-weight: 700;
+    font-size: 75px;
+    line-height: 30px;
+    letter-spacing: 4px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+p {
+    color: #707070;
+    padding-bottom: 25px;
+    padding-top: 15px;
+}
+.top_header {
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.biography_area{
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.latest_work_area{
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+.footer_area{
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.half_width{    
+    width: 40%;
+    float: left;
+    padding-left: 2%;
+    margin-left: 5%;
+}
+.single_work {
+    width: 25%;
+    float: left;
+    padding-left: 2%;
+    margin-left: 4%;
+}
+.single_work img{
+    width: 100%;
+    height: auto;
+}
+.half_width img{
+    width: 100%;
+    height: auto;
+}
+.pink_name{
+    color: #EC4C7A;
+}
+.pink_button{    
+    text-decoration: none;
+    background-image: linear-gradient(45deg, #EC4F8F, #ED4B73);
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+.latest_work_area h2, .footer_area h2, .footer_area h5, .footer_area h3{
+    text-align: center;
+    line-height: 100px;
+    padding-top: 0%;
+}
+.footer_area{
+    text-align: center;
+}
+.top_footer h3, .top_footer h5{
+    margin: 0;
+    line-height: 30px;
+}
+.top_footer{
+    width: 50%;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+.pink_mailto{    
+    text-decoration: none;
+    background-image: linear-gradient(45deg, #EC4F8F, #ED4B73);
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: white;
+    padding-top: 35px;
+    padding-bottom: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.pink_mailto a{
+    font-size: 19px;
+    line-height: 38px;
+    font-weight: 300;
+}
+.pink_mailto span{    
+    font-size: 36px;
+    line-height: 50px;
+    font-weight: 700;
+}
+.top_footer h5{
+    font-weight: 300;
+    color: #919191;
+}
+.top_footer_content{
+    width: 70%;
+    margin: 0 auto;
+}
+.top_footer_content p{
+    color: #333333;
+    font-weight: 500;
+    line-height: 28px;
+}
+.top_footer_content h3{
+    color: #202428;
+}
+.bottom_footer{
+    padding-top: 40px;
+}
+
+.bottom_footer p{
+    color: #7c7c7c;
+}
