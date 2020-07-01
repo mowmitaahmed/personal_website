@@ -1,3 +1,4 @@
+/*  General CSS */
 body{
     padding: 0;
     margin: 0;
@@ -28,27 +29,9 @@ p {
     padding-bottom: 25px;
     padding-top: 15px;
 }
+/*  Top Header Area */
 .top_header {
     background-image: url(images/header-bg.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-.biography_area{
-    background-image: url("images/biography-bg.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-.latest_work_area{
-    background-image: url("images/latest-work-bg.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 500px;
-}
-.footer_area{
-    background-image: url("images/footer-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -58,16 +41,6 @@ p {
     float: left;
     padding-left: 2%;
     margin-left: 5%;
-}
-.single_work {
-    width: 25%;
-    float: left;
-    padding-left: 2%;
-    margin-left: 4%;
-}
-.single_work img{
-    width: 100%;
-    height: auto;
 }
 .half_width img{
     width: 100%;
@@ -84,10 +57,78 @@ p {
     color: white;
     font-weight: 700;
 }
+
+/*  Biography Area */
+.biography_area{
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/*  Latest Work Area */
+.latest_work_area{
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+.single_work {
+    width: 25%;
+    float: left;
+    padding-left: 2%;
+    margin-left: 4%;
+}
+.single_work img{
+    width: 100%;
+    height: auto;
+}
 .latest_work_area h2, .footer_area h2, .footer_area h5, .footer_area h3{
     text-align: center;
     line-height: 100px;
     padding-top: 0%;
+}
+
+/*  Experience Area */
+.single_experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 80%;
+}
+.experience_area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 400px;
+}
+.experience_area > h2{
+    padding-top: 0;
+    text-align: center;
+    padding-bottom: 50px;
+    margin-top: 0;
+}
+.single_experience>h2{
+    text-align: left;
+    font-size: 35px;
+    padding-top: 0;
+}
+#full_stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+#baby_web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+
+/*  Footer Area */
+.footer_area{
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 .footer_area{
     text-align: center;
@@ -144,4 +185,5 @@ p {
 
 .bottom_footer p{
     color: #7c7c7c;
+    font-size: 16px;
 }
